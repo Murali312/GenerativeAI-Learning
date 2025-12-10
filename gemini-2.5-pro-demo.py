@@ -10,7 +10,7 @@ print(os.getenv("GOOGLE_API_KEY"))
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Create a model instance
-model = genai.GenerativeModel("gemini-2.0-flash-lite")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Generate a simple response
 response = model.generate_content("What is the capital of India")
