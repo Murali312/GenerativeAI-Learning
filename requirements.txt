@@ -8,3 +8,4 @@ langchain-ollama
 langchain-huggingface
 langsmith
 langchain-aws
+langchain-core
