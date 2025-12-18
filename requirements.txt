@@ -9,3 +9,4 @@ langchain-huggingface
 langsmith
 langchain-aws
 langchain-core
+scikit-learn
