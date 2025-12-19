@@ -6,7 +6,6 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.runnables import RunnableWithMessageHistory
 
 
-
 # Initialize the Ollama chat model with the specified model name
 model = ChatOllama(model="llama3.2:3b")
 
@@ -57,4 +56,3 @@ response2 = chain.invoke(
 # Print the responses from the model
 print(response1.content)
 print(response2.content)
-
